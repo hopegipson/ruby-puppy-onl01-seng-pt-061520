@@ -3,8 +3,9 @@ class Dog
       @@all = []
 
   def save
-    @@all << self
+    @@all << @name
   end
+  
   attr_reader :name
 
   
