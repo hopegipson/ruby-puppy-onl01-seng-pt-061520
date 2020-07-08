@@ -23,5 +23,6 @@ class Dog
     puts item
     }
   end
-  end
+end
+end
 end
