@@ -1,6 +1,9 @@
 # Add your code here
 class Dog
   @@all = []
+    def save
+    @@all << self
+  end
   attr_reader :name
 
   
@@ -9,10 +12,7 @@ class Dog
     self.save
     
   end
-  
-  def save
-    @@all << self
-  end
+
   
     def self.all
     @@all
