@@ -25,5 +25,8 @@ class Dog
     puts item.name
   end
   end
+  
+  def self.clear_all
+    
 
 end
