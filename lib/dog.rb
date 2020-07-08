@@ -19,9 +19,9 @@ class Dog
   end
   
   def self.print_all
-  @@array.each do |item|{
+  @@array.each do |item|
     puts item
-    }
+  end
   end
 
 end
